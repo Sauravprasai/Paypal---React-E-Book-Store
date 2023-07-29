@@ -1,0 +1,55 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0.5rem auto 2rem;
+  }
+
+  .description{
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  .product--image {
+    width: 12em;
+    height: 17em;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .card {
+    padding-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 320px;
+    margin: auto 1rem;
+    text-align: center;
+    font-family: arial;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  .price {
+    color: #ff4036;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
